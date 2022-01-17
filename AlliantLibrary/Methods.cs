@@ -8,10 +8,10 @@ namespace AlliantLibrary
 {
     public class Methods
     {
-        public static decimal sumTotal;
-        public static List<KeyValuePair<string, int>> productList;
+        public decimal sumTotal;
+        public List<KeyValuePair<string, int>> productList;
 
-        public static List<KeyValuePair<string, int>> Scan(string input)
+        public List<KeyValuePair<string, int>> Scan(string input)
         {
             char charA = 'A';
             char charB = 'B';
@@ -34,7 +34,7 @@ namespace AlliantLibrary
             return productList;
         }
 
-        public static decimal Total(List<KeyValuePair<string, int>> list)
+        public decimal Total(List<KeyValuePair<string, int>> list)
         {
 
             int freqA = 0;
@@ -88,5 +88,19 @@ namespace AlliantLibrary
 
             return sumTotal;
         }
+
+        //public class Scan
+        //{
+        //    public Scan()
+        //    {
+        //    }
+        //}
+
+        //public class Total
+        //{
+        //    public Total()
+        //    {
+        //    }
+        //}
     }
 }

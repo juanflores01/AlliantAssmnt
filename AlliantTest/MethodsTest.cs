@@ -9,8 +9,8 @@ namespace AlliantTest
         [TestMethod]
         public void TestMethod_ABCDABAA()
         {
-            //Methods ms = new Methods();
-            Assert.Inconclusive();
+            Methods ms = new Methods();
+            //Assert.Inconclusive();
         }
 
         [TestMethod]
