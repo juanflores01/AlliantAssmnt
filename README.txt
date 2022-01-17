@@ -1,3 +1,7 @@
+Main code is here:
+https://github.com/juanflores01/AlliantAssmnt/blob/main/AlliantConsole/Program.cs
+https://github.com/juanflores01/AlliantAssmnt/blob/main/AlliantLibrary/Methods.cs
+
 Initial Pass
 
 1.  Create Console, throw everything in the Main function, make sure it works and break it apart later.
