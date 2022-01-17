@@ -15,7 +15,7 @@ namespace AlliantConsole
             string userInput = InputRaw.ToUpper();
             
             Methods.Scan(userInput);
-            Methods.Logic(Methods.productList);
+            Methods.Total(Methods.productList);
 
             Console.WriteLine("The total price is: $" + (Methods.sumTotal));
             Console.ReadLine();

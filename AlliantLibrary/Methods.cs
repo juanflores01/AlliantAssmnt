@@ -34,7 +34,7 @@ namespace AlliantLibrary
             return productList;
         }
 
-        public static decimal Logic(List<KeyValuePair<string, int>> list)
+        public static decimal Total(List<KeyValuePair<string, int>> list)
         {
 
             int freqA = 0;
