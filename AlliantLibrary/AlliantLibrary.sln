@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlliantLibrary", "AlliantLibrary.csproj", "{E52C0420-9AAC-4D38-95A2-6747B6E217B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlliantLibrary", "AlliantLibrary.csproj", "{E52C0420-9AAC-4D38-95A2-6747B6E217B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlliantConsole", "..\AlliantConsole\AlliantConsole.csproj", "{36109BEB-8D4A-44C4-B711-AF4549ABFFF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlliantConsole", "..\AlliantConsole\AlliantConsole.csproj", "{36109BEB-8D4A-44C4-B711-AF4549ABFFF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlliantTest", "..\AlliantTest\AlliantTest.csproj", "{EB2ED86B-EFDD-4558-9D25-C4916BBA6B74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{36109BEB-8D4A-44C4-B711-AF4549ABFFF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36109BEB-8D4A-44C4-B711-AF4549ABFFF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36109BEB-8D4A-44C4-B711-AF4549ABFFF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB2ED86B-EFDD-4558-9D25-C4916BBA6B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2ED86B-EFDD-4558-9D25-C4916BBA6B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB2ED86B-EFDD-4558-9D25-C4916BBA6B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2ED86B-EFDD-4558-9D25-C4916BBA6B74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
