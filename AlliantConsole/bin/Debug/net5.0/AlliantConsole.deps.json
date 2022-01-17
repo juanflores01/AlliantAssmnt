@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "AlliantConsole/1.0.0": {
+        "dependencies": {
+          "AlliantLibrary": "1.0.0"
+        },
+        "runtime": {
+          "AlliantConsole.dll": {}
+        }
+      },
+      "AlliantLibrary/1.0.0": {
+        "runtime": {
+          "AlliantLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AlliantConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AlliantLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
