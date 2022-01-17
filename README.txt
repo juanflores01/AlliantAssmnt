@@ -13,3 +13,4 @@ Second Pass
 *.  tested - works.
 
 Third Pass
+*.  I realized that the methods class can go in the console project and library should've been a test project.
