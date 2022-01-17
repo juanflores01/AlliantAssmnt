@@ -10,7 +10,7 @@ namespace AlliantLibrary
     {
         public static decimal sumTotal;
         public static List<KeyValuePair<string, int>> productList;
-        /***/
+
         public static List<KeyValuePair<string, int>> Scan(string input)
         {
             char charA = 'A';
