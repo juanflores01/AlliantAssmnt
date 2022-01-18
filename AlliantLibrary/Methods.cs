@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace AlliantLibrary
 {
-    public class Methods
+    //interface ITerminal
+    //{
+    //    //List<KeyValuePair<string, int>> Scan(string item);
+    //    //decimal Total(List<KeyValuePair<string, int>> list);
+    //}
+
+    public class Methods 
     {
         public decimal sumTotal;
         public List<KeyValuePair<string, int>> productList;
@@ -88,19 +94,5 @@ namespace AlliantLibrary
 
             return sumTotal;
         }
-
-        //public class Scan
-        //{
-        //    public Scan()
-        //    {
-        //    }
-        //}
-
-        //public class Total
-        //{
-        //    public Total()
-        //    {
-        //    }
-        //}
     }
 }

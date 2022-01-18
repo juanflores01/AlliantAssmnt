@@ -6,7 +6,6 @@ namespace AlliantTest
     [TestClass]
     public class MethodsTest
     {
-
         [TestMethod]
         public void TestMethod_ABCDABAA()
         {
@@ -15,6 +14,7 @@ namespace AlliantTest
 
             var list = methods.Scan(userInput);
             var costTotal = methods.Total(list);
+
             var expectedPrice = 32.40m;
 
             Assert.IsTrue(costTotal == expectedPrice);
