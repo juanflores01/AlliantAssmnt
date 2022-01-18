@@ -2,6 +2,9 @@
 
 namespace AlliantLibrary
 {
+    /// <summary>
+    /// not implemented.
+    /// </summary>
     public class ProductCode
     {
         public string A { get; set; }

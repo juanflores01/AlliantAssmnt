@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace AlliantLibrary
 {
-    //interface ITerminal
+    /// <summary>
+    /// can't find the common elements between scan and total methods.
+    /// </summary>
+    //public interface ITerminal
     //{
     //    //List<KeyValuePair<string, int>> Scan(string item);
     //    //decimal Total(List<KeyValuePair<string, int>> list);
