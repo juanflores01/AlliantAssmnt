@@ -18,4 +18,7 @@ Second Pass
 
 Third Pass
 *.  I realized that the methods class can go in the console project and library should've been a test project.
-1.  Create Unit Test that includes methods for verifing scan of all products including multiples of a few, scan of multiples of a single product, scan of one of each product.
+1.  Created Unit Test that includes methods for verifing scan of all products including multiples of a few, scan of multiples of a single product, scan of one of each product.
+
+Fourth Pass
+1.  Created a faux Terminal interface that calls Scan and Total methods, shared it between the program and unit test.
