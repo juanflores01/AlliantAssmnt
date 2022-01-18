@@ -6,15 +6,6 @@ using System.Threading.Tasks;
 
 namespace AlliantLibrary
 {
-    /// <summary>
-    /// can't find the common elements between scan and total methods.
-    /// </summary>
-    //public interface ITerminal
-    //{
-    //    //List<KeyValuePair<string, int>> Scan(string item);
-    //    //decimal Total(List<KeyValuePair<string, int>> list);
-    //}
-
     public class Methods 
     {
         public decimal sumTotal;
@@ -97,15 +88,5 @@ namespace AlliantLibrary
 
             return sumTotal;
         }
-
-        public decimal Terminal(string userInput)
-        {
-            Methods methods = new Methods();
-            var list = methods.Scan(userInput);
-            var costTotal = methods.Total(list);
-
-            return costTotal;
-        }
-
     }
 }

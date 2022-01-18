@@ -10,8 +10,8 @@ namespace AlliantTest
         public void TestMethod_ABCDABAA()
         {
             var userInput = "ABCDABAA";
-            Methods methods = new Methods();
-            var costTotal = methods.Terminal(userInput);
+            ITerminal terminal = new ITerminal();
+            var costTotal = terminal.Terminal(userInput);
             var expectedPrice = 32.40m;
 
             Assert.IsTrue(costTotal == expectedPrice);
@@ -21,8 +21,8 @@ namespace AlliantTest
         public void TestMethod_CCCCCCC()
         {
             var userInput = "CCCCCCC";
-            Methods methods = new Methods();
-            var costTotal = methods.Terminal(userInput);
+            ITerminal terminal = new ITerminal();
+            var costTotal = terminal.Terminal(userInput);
             var expectedPrice = 7.25m;
 
             Assert.IsTrue(costTotal == expectedPrice);
@@ -32,8 +32,8 @@ namespace AlliantTest
         public void TestMethod_ABCD()
         {
             var userInput = "ABCD";
-            Methods methods = new Methods();
-            var costTotal = methods.Terminal(userInput);
+            ITerminal terminal = new ITerminal();
+            var costTotal = terminal.Terminal(userInput);
             var expectedPrice = 15.40m;
 
             Assert.IsTrue(costTotal == expectedPrice);

@@ -14,8 +14,8 @@ namespace AlliantConsole
             string InputRaw = Console.ReadLine();
             string userInput = InputRaw.ToUpper();
 
-            var methods = new Methods();
-            var costTotal = methods.Terminal(userInput);
+            ITerminal terminal = new ITerminal();
+            var costTotal = terminal.Terminal(userInput);
 
             Console.WriteLine("The total price is: $" + (costTotal));
             Console.ReadLine();
