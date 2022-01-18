@@ -97,5 +97,15 @@ namespace AlliantLibrary
 
             return sumTotal;
         }
+
+        public decimal Terminal(string userInput)
+        {
+            Methods methods = new Methods();
+            var list = methods.Scan(userInput);
+            var costTotal = methods.Total(list);
+
+            return costTotal;
+        }
+
     }
 }
